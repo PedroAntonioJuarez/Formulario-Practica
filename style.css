@@ -1,0 +1,21 @@
+body {background-color: burlywood; display: flex;
+flex-direction: column; align-items: center;}
+
+form {width: 650px;
+height: 350;
+border: solid 1px black;
+border-radius: 1rem;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+
+}
+
+input {height: 50px;
+    margin-bottom: 1rem;}
+
+.submit {height: 50px;
+background-color: blue;
+color: white;}
+
+input.error {border: solid 3px red;}
